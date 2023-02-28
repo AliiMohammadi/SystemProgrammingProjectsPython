@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b7364ab6-a911-4f60-a5a3-4527b26b519d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>KeyDetector.py</StartupFile>
+    <StartupFile>KeyDetector\KeyDetector.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="KeyDetector.py" />
+    <Compile Include="Console.py" />
+    <Compile Include="KeyDetector\Inputmanager.py" />
+    <Compile Include="KeyDetector\KeyDetector.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="KeyDetector\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
