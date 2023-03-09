@@ -256,5 +256,7 @@ CharacterDict = {
 238:"ε" ,
 }
 
+CharactersCount = len(CharacterDict)
+
 def GetChar(keycode):
     return CharacterDict.get(keycode)
