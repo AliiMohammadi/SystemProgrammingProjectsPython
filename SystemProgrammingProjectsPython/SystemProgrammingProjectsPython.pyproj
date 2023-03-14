@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b7364ab6-a911-4f60-a5a3-4527b26b519d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>CasesarCipher Code and decode\CaserarEncription.py</StartupFile>
+    <StartupFile>Parit bit Error Detection\ParityBitErrorDetection.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,15 +23,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="CasesarCipher Code and decode\CaserarEncription.py" />
+    <Compile Include="CasesarCipher Code and decode\CaserarEncryption.py" />
+    <Compile Include="Parit bit Error Detection\ParityBitErrorDetection.py" />
     <Compile Include="ReadWrite.py" />
     <Compile Include="Console.py" />
     <Compile Include="KeyDetector\Inputmanager.py" />
     <Compile Include="KeyDetector\KeyDetector.py" />
+    <Compile Include="TextPattern\TextPatternDetector.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="KeyDetector\" />
     <Folder Include="CasesarCipher Code and decode\" />
+    <Folder Include="Parit bit Error Detection\" />
+    <Folder Include="TextPattern\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
