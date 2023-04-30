@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b7364ab6-a911-4f60-a5a3-4527b26b519d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Parit bit Error Detection\ParityBitErrorDetection.py</StartupFile>
+    <StartupFile>BinaryMath\Main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="BinaryMath\Main.py" />
+    <Compile Include="BinaryMath\RegisterFlags.py" />
     <Compile Include="CasesarCipher Code and decode\CaserarEncryption.py" />
     <Compile Include="Parit bit Error Detection\ParityBitErrorDetection.py" />
     <Compile Include="ReadWrite.py" />
@@ -34,6 +36,7 @@
   <ItemGroup>
     <Folder Include="KeyDetector\" />
     <Folder Include="CasesarCipher Code and decode\" />
+    <Folder Include="BinaryMath\" />
     <Folder Include="Parit bit Error Detection\" />
     <Folder Include="TextPattern\" />
   </ItemGroup>
