@@ -4,7 +4,11 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b7364ab6-a911-4f60-a5a3-4527b26b519d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
+<<<<<<< HEAD
     <StartupFile>PythonTutorial.py</StartupFile>
+=======
+    <StartupFile>BinaryMath\Main.py</StartupFile>
+>>>>>>> ea7e5d473b22f6528a5fc5a102efa27af061c9b7
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,8 +27,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Binary Math\BinaryMath.py" />
     <Compile Include="Binary Math\RegisterFlags.py" />
+=======
+    <Compile Include="BinaryMath\Main.py" />
+    <Compile Include="BinaryMath\RegisterFlags.py" />
+>>>>>>> ea7e5d473b22f6528a5fc5a102efa27af061c9b7
     <Compile Include="CasesarCipher Code and decode\CaserarEncryption.py" />
     <Compile Include="Parit bit Error Detection\ParityBitErrorDetection.py" />
     <Compile Include="PythonTutorial.py" />
@@ -36,7 +45,11 @@
   <ItemGroup>
     <Folder Include="KeyDetector\" />
     <Folder Include="CasesarCipher Code and decode\" />
+<<<<<<< HEAD
     <Folder Include="Binary Math\" />
+=======
+    <Folder Include="BinaryMath\" />
+>>>>>>> ea7e5d473b22f6528a5fc5a102efa27af061c9b7
     <Folder Include="Parit bit Error Detection\" />
     <Folder Include="TextPattern\" />
   </ItemGroup>
