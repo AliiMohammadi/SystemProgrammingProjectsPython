@@ -22,14 +22,14 @@ def Main():
 
         PrintMatrix(matrix,D)
         print(DetectError(matrix,D))
-# For printing the matrix
+# Printing the matrix
 def PrintMatrix(matrix,d):
     
     for i in range(d):
         for j in range(d):
             print(matrix[i][j], end = " ")
         print()
-#Main core 
+# Main core 
 def DetectError(matrix,n):
     if(n <= 0):
         return "Invalid dimension."

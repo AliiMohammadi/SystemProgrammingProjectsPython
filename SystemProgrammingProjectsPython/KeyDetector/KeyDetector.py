@@ -12,6 +12,7 @@ def Main():
         
         print("Keys founded: ")
 
+        #MAIN CORE
         for x in inputs:
             print(counter, ": " , Inputmanager.GetChar(x) , "(",x,")")
             counter+=1

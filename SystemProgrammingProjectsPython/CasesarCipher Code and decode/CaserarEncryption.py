@@ -25,7 +25,7 @@ def Main():
 #Caserar Encription function:
 #Parameter 1: <character> char type variable. 
 #Parameter 2: <shiftvalue> integer type variable
-#T(x,y) = Θ(1)
+#T(x,y) = Θ(13)
 def EncryptChar(character,shiftvalue):
 
     keycode = ord(character)
@@ -40,7 +40,7 @@ def EncryptChar(character,shiftvalue):
 
         validshiftvalue = 25
 
-        #expection for numbers above validshiftvalue or less than -validshiftvalue.
+        #Expection for numbers above validshiftvalue or less than -validshiftvalue.
         exact = (((abs(shiftvalue) % validshiftvalue)  * shiftvalue) / abs(shiftvalue))
         
         if(exact != 0):
